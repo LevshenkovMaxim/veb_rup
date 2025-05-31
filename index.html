@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Питомник</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="container header__inner">
+            <div class="logo-wrapper">
+                <img src="images/logo.svg" alt="Логотип питомника Черный Чиж" class="logo logo-default">
+                <img src="images/logo-green.svg" alt="Зеленый логотип питомника Черный Чиж" class="logo logo-hover">
+            </div>
+            <div class="header-breeds">
+                <div class="breed-item">
+                    <p>Шарпей</p>
+                    <div class="dropdown">
+                        <p>Щенки</p>
+                        <p>Суки</p>
+                        <p>Кобели</p>
+                        <p>О породе</p>
+                        <p>Наша память</p>
+                    </div>
+                </div>
+
+                <div class="breed-item">
+                    <p>Сиба-ину</p>
+                    <div class="dropdown">
+                        <p>Щенки</p>
+                        <p>Суки</p>
+                        <p>Кобели</p>
+                        <p>О породе</p>
+                        <p>Наша память</p>
+                    </div>
+                </div>
+
+                <div class="breed-item">
+                    <p>Корги</p>
+                    <div class="dropdown">
+                        <p>Щенки</p>
+                        <p>Суки</p>
+                        <p>Кобели</p>
+                        <p>О породе</p>
+                        <p>Наша память</p>
+                    </div>
+                </div>
+
+                <div class="breed-item">
+                    <p>Померанский шпиц</p>
+                    <div class="dropdown">
+                        <p>Щенки</p>
+                        <p>Суки</p>
+                        <p>Кобели</p>
+                        <p>О породе</p>
+                        <p>Наша память</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="header-info">
+                <p class="hover-button">О нас</p>
+                <p class="hover-button">База знаний</p>
+                <p class="hover-button">Контакты</p>
+            </div>
+    
+            <div class="phone hover-button">+7 (926) 232-43-07</div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero__inner">
+                <div class="hero__content">
+                    <h1 class="hero__title">СОБАКИ С ВЫСОКИМ <br> ШОУ-ПОТЕНЦИАЛОМ, <br> И ПРЕДАННЫЕ ДОМАШНИЕ <br> СПУТНИКИ</h1>
+                    <p class="hero__subtitle">Питомцы Черный Чиж призваны стать звездами как на выставочном ринге, так и в вашем сердце</p>
+                    <div class="hero__buttons">
+                        <a href="#" class="btn btn-primary">ПОДОБРАТЬ СОБАКУ</a>
+                        <a href="#" class="btn btn-secondary">WHATSAPP</a>
+                    </div>
+                </div>
+
+                <div class="hero__image-block">
+                    <img src="images/hero-dog.png" alt="Порода собак с высоким шоу-потенциалом из питомника Черный Чиж" class="hero__image" />
+                    <div class="hero__label">
+                        <img src="images/loupe.png" alt="Иконка лупы для обозначения поиска питомника Черный Чиж" class="hero__label-icon" />
+                        <p class="hero__label-text">многопородный питомник Черный Чиж</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                <h2 class="section-title about-title">О ПИТОМНИКЕ</h2>
+            </div>
+
+            <div class="about__wrapper">
+            
+                <div class="about-image img-1">
+                    <img src="images/about-left.jpg" alt="Померанский шпиц для раздела о питомнике" />
+                </div>
+
+                <div class="about-text text-1">
+                    <p>Предоставляем онлайн поддержку <br> и консультации, помогая вам <br> во всех аспектах ухода <br> и воспитания вашего любимца.</p>
+                </div>
+
+                <div class="about-image img-2">
+                    <img src="images/about-center.jpg" alt="Сиба-ину для раздела о питомнике" />
+                </div>
+
+                <div class="about-text text-2">
+                    <p>Мы занимаемся разведением собак с 1994 года, обеспечивая высокий уровень качества <br> и заботы на протяжении <br> многих лет</p>
+                    <img class="dog-text" src="images/dog-text.jpg" alt="Изображение собаки для текстового блока о питомнике">
+                </div>
+
+                <div class="about-text text-3">
+                    <p>У нас более 200 собак, завоевавших титулы чемпионов в разных странах мира</p>
+                </div>
+
+                <div class="about-image img-3">
+                    <img src="images/about-right.jpg" alt="Вельш-корги для раздела о питомнике" />
+                </div>
+            </div>
+        </section>
+
+        <section class="breed-switcher">
+            <button class="active">ШАРПЕЙ</button>
+            <button>СИБА-ИНУ</button>
+            <button>КОРГИ</button>
+            <button>ПОМЕРАНСКИЙ ШПИЦ</button>
+        </section>
+
+        <section class="puppies-section">
+            <div class="container">
+                <h2 class="section-title-white">НАШИ ЩЕНКИ</h2>
+      
+                <div class="puppies-grid">
+                    <div class="puppy-card">
+                        <div class="puppy-image-wrapper">
+                            <img src="images/puppy1.jpg" alt="Щенок шарпея по кличке Черный Чиж Либерти То Дисайд, мальчик, красный олень">
+
+                            <div class="puppy-name">
+                                <h3>ЧЕРНЫЙ ЧИЖ</h3>
+                                <h3>ЛИБЕРТИ ТО ДИСАЙД</h3>
+                            </div>
+
+                            <div class="puppy-overlay">
+                                <p class="puppy-gender">МАЛЬЧИК</p>
+                                <p class="puppy-overlay-title">Черный Чиж <br> Либерти То Дисайд</p>
+                                <div class="info-row"><h4>Дата рождения: </h4><p>21.07.2023</p></div>
+                                <div class="info-row"><h4>Окрас: </h4><p>Красный олень</p></div>
+                                <div class="info-row"><h4>Потенциал: </h4><p>Шоу</p></div>
+                                <div class="info-row"><h4>Статус: </h4><p>в продаже</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="puppy-card">
+                        <div class="puppy-image-wrapper">
+                            <img src="images/puppy2.jpg" alt="Щенок шарпея по кличке Черный Чиж Лаф Энд Дэнс, мальчик, красный олень">
+
+                            <div class="puppy-name">
+                                <h3>ЧЕРНЫЙ ЧИЖ</h3>
+                                <h3>ЛАФ ЭНД ДЭНС</h3>
+                            </div>
+
+                            <div class="puppy-overlay">
+                                <p class="puppy-gender">МАЛЬЧИК</p>
+                                <p class="puppy-overlay-title">Черный Чиж <br> Лаф Энд Дэнс</p>
+                                <div class="info-row"><h4>Дата рождения: </h4><p>21.07.2023</p></div>
+                                <div class="info-row"><h4>Окрас: </h4><p>Красный олень</p></div>
+                                <div class="info-row"><h4>Потенциал: </h4><p>Шоу</p></div>
+                                <div class="info-row"><h4>Статус: </h4><p>в продаже</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="puppy-card">
+                        <div class="puppy-image-wrapper">
+                            <img src="images/puppy3.jpg" alt="Щенок шарпея по кличке Черный Чиж Ластин Импрешн, мальчик, красный олень">
+
+                            <div class="puppy-name">
+                                <h3>ЧЕРНЫЙ ЧИЖ</h3>
+                                <h3>ЛАСТИН ИМПРЕШН</h3>
+                            </div>
+
+                            <div class="puppy-overlay">
+                                <p class="puppy-gender">МАЛЬЧИК</p>
+                                <p class="puppy-overlay-title">Черный Чиж <br> Ластин Импрешн</p>
+                                <div class="info-row"><h4>Дата рождения: </h4><p>21.07.2023</p></div>
+                                <div class="info-row"><h4>Окрас: </h4><p>Красный олень</p></div>
+                                <div class="info-row"><h4>Потенциал: </h4><p>Шоу</p></div>
+                                <div class="info-row"><h4>Статус: </h4><p>в продаже</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+      
+                <button class="view-all-btn">СМОТРЕТЬ ВСЕХ</button>
+            </div>
+        </section>
+
+        <section class="why-us">
+            <div class="why-us-wrapper">
+                <h2 class="section-title">ПОЧЕМУ МЫ - ЛУЧШИЙ ВЫБОР</h2>
+                <div class="why-us-body">
+                    <div class="why-us-content">
+                        <div class="why-us-item why-us-item1">
+                            <div class="why-us-text why-us-text1">
+                                <h3>ГАРАНТИЯ КАЧЕСТВА</h3>
+                                <p>Мы следим за условиями содержания каждого питомца</p>
+                            </div>
+                            <img class="why-us-icon1" src="images/icon1.svg" alt="Иконка гарантии качества содержания питомцев" />
+                        </div>
+                        <div class="why-us-item why-us-item2">
+                            <div class="why-us-text why-us-text2">
+                                <h3>ДОКУМЕНТЫ</h3>
+                                <p>Полный пакет документов, включая родословную РКФ FCI</p>
+                            </div>
+                            <img class="why-us-icon2" src="images/icon2.svg" alt="Иконка полного пакета документов" />
+                        </div>
+                        <div class="why-us-item why-us-item3">
+                            <div class="why-us-text why-us-text3">
+                                <h3>ВЫДАЮЩИЕСЯ РЕЗУЛЬТАТЫ</h3>
+                                <p>Множество выставочных собак, ставших чемпионами разных стран.</p>
+                            </div>
+                            <img class="why-us-icon3" src="images/icon3.svg" alt="Иконка выдающихся выставочных результатов собак питомника" />
+                        </div>
+                        <div class="why-us-item why-us-item4">
+                            <div class="why-us-text why-us-text4">
+                                <h3>МИРОВАЯ ДОСТАВКА</h3>
+                                <p>Возможность приобретения в любой точке земного шара</p>
+                            </div>
+                            <img class="why-us-icon4" src="images/icon4.svg" alt="Иконка мировой доставки собак питомника Черный Чиж" />
+                        </div>
+                    </div>
+                    <div class="why-us-image">
+                        <img src="images/dog-big.jpg" alt="Портрет собаки питомника Черный Чиж для раздела почему мы" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="breed-selector">
+            <button class="active">ШАРПЕЙ</button>
+            <button>СИБА-ИНУ</button>
+            <button>КОРГИ</button>
+            <button>ПОМЕРАНСКИЙ ШПИЦ</button>
+        </section>
+
+        <section class="about-breed">
+            <h2 class="section-title-white breed">О породе</h2>
+
+            <div class="about-breed-content">
+                <div class="about-breed-image">
+                    <img src="images/sharpei.jpg" alt="Собака породы шарпей с характерными морщинами и грушевидной головойй" />
+                </div>
+
+                <div class="about-breed-info">
+                    <div class="info-block large">
+                        <h3>Внешность</h3>
+                        <p>Уникально выделяется среди пород с грушевидной головой, морщинистым лицом и ушами-раковинами. Отличается сине-черным языком, крепким телосложением и мускулистыми ногами. Шарпей украшают широкая грудь, гибкая спина и кольцеобразный хвост, 
+а его жесткая шерсть подчеркивает неповторимый стиль</p>
+                    </div>
+
+                    <div class="info-block-row">
+                        <div class="info-block small">
+                            <h3>Характер и темперамент</h3>
+                            <img class="paws" src="images/4 paws.png" alt="Иконка с четырьмя лапами для активности и характера">
+                            <p>Спокойный, идеальный компаньон, немного упрям</p>
+                        </div>
+                        <div class="info-block small">
+                            <h3>Адаптивность</h3>
+                            <img class="paws" src="images/3 paws.png" alt="Иконка с тремя лапами для адаптивности и ухода">
+                            <p>Адаптивны, требуют социализации и тренировки</p>
+                        </div>
+                    </div>
+
+                    <div class="info-block-row">
+                        <div class="info-block small">
+                            <h3>Потребность в уходе</h3>
+                            <img class="paws" src="images/3 paws.png" alt="Иконка с тремя лапами для адаптивности и ухода">
+                            <p>Требуют умеренного ухода за шерстью и кожей</p>
+                        </div>
+                        <div class="info-block small">
+                            <h3>Активность</h3>
+                            <img class="paws" src="images/4 paws.png" alt="Иконка с четырьмя лапами для активности и характера">
+                            <p>Умеренная активность, подходят для дома</p>
+                        </div>
+                    </div>
+
+                    <button class="btn">Подробнее</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <h2 class="section-title">Часто задаваемые вопросы</h2>
+            <p class="faq-subtitle">Если вы не нашли ответ на свой вопрос, не стесняйтесь обращаться к нам напрямую через мессенджер или по телефону.</p>
+
+            <div class="faq-list">
+                <div class="faq-text">
+                    <h3>КАК Я МОГУ ПРИОБРЕСТИ СОБАКУ ИЗ ВАШЕГО ПИТОМНИКА?</h3>
+                    <img class="cross" src="images/cross.png" alt="Иконка крестика для закрытия вопроса в FAQ">
+                    <p>Для приобретения собаки из нашего питомника свяжитесь с нами по указанным контактным данным или заполните форму на нашем сайте. Мы с удовольствием ответим на все ваши вопросы и организуем встречу с желаемым питомцем.</p>
+                </div>
+
+                <div class="faq-question">
+                    <h3>ЕСТЬ ЛИ У СОБАК РОДОСЛОВНАЯ?</h3>
+                    <img class="plus" src="images/plus.png" alt="Иконка плюса для раскрытия вопроса в FAQ">
+                </div>
+
+                <div class="faq-question">
+                    <h3>ОСУЩЕСТВЛЯЕТЕ ЛИ ВЫ ДОСТАВКУ ЗА ПРЕДЕЛЫ ВАШЕЙ СТРАНЫ?</h3>
+                    <img class="plus" src="images/plus.png" alt="Иконка плюса для раскрытия вопроса в FAQ">
+                </div>
+
+                <div class="faq-question">
+                    <h3>ЕСТЬ ЛИ У ВАС ГАРАНТИЯ НА КУПЛЕННУЮ СОБАКУ?</h3>
+                    <img class="plus" src="images/plus.png" alt="Иконка плюса для раскрытия вопроса в FAQ">
+                </div>
+
+                <div class="faq-question">
+                    <h3>ЧТО ВКЛЮЧЕНО В СТОИМОСТЬ ПОКУПКИ СОБАКИ?</h3>
+                    <img class="plus" src="images/plus.png" alt="Иконка плюса для раскрытия вопроса в FAQ">
+                </div>
+            </div>
+        </section>
+
+        <section class="knowledge-filters">
+            <button class="active">ПОВЕДЕНИЕ</button>
+            <button>УХОД И ЗДОРОВЬЕ</button>
+            <button>ТРЕНИРОВКИ И ВОСПИТАНИЕ</button>
+            <button>ПОРОДНЫЕ ОСОБЕННОСТИ</button>
+        </section>
+
+        <section class="knowledge-section">
+            <h2 class="section-title-white knowledge">БАЗА ЗНАНИЙ</h2>
+
+            <div class="knowledge-cards">
+                <div class="knowledge-card">
+                    <div class="knowledge-image-wrapper">
+                        <img src="images/knowledge1.jpg" alt="Основы обучения собак">
+
+                        <div class="knowledge-name">
+                            <h3>ОСНОВЫ ОБУЧЕНИЯ СОБАК</h3>
+                        </div>
+
+                        <div class="knowledge-overlay">
+                            <p class="knowledge-behavior">ПОВЕДЕНИЕ</p>
+                            <p class="knowledge-overlay-title">Основы обучения собак</p>
+                            <p class="info-knowledge">Обзор базовых принципов обучения <br> собак, включая положительное <br> подкрепление, негативное наказание, <br> формирование связи с хозяином и др.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="knowledge-card">
+                    <div class="knowledge-image-wrapper">
+                        <img src="images/knowledge2.jpg" alt="Социализация щенка">
+
+                        <div class="knowledge-name">
+                            <h3>СОЦИАЛИЗАЦИЯ ЩЕНКА</h3>
+                        </div>
+
+                        <div class="knowledge-overlay">
+                            <p class="knowledge-behavior">ПОВЕДЕНИЕ</p>
+                            <p class="knowledge-overlay-title">Социализация щенка</p>
+                            <p class="info-knowledge">Обзор базовых принципов обучения <br> собак, включая положительное <br> подкрепление, негативное наказание, <br> формирование связи с хозяином и др.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="knowledge-card">
+                    <div class="knowledge-image-wrapper">
+                        <img src="images/knowledge3.jpg" alt="Особенности поведения корги">
+
+                        <div class="knowledge-name">
+                            <h3>ОСОБЕННОСТИ ПОВЕДЕНИЯ КОРГИ</h3>
+                        </div>
+
+                        <div class="knowledge-overlay">
+                            <p class="knowledge-behavior">ПОВЕДЕНИЕ</p>
+                            <p class="knowledge-overlay-title">Особенности поведение корги</p>
+                            <p class="info-knowledge">Обзор базовых принципов обучения <br> собак, включая положительное <br> подкрепление, негативное наказание, <br> формирование связи с хозяином и др.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="knowledge-button-wrapper">БОЛЬШЕ ЗНАНИЙ</button>
+        </section>
+
+        <section class="life-section">
+            <div class="container">
+                <h2 class="section-title">ЖИЗНЬ ПИТОМНИКА</h2>
+
+                <div class="life-grid">
+                    <div class="life-left">
+                        <div class="life-item">
+                            <img src="images/life1.jpg" alt="Шарпей, истории успеха выпускников питомника Черный Чиж">
+                            <div class="life-big-text">
+                                <h3>За пределами выставочного ринга: Истории успеха наших выпускников</h3>
+                                <p class="life-text">Интервью с владельцами, которые делятся своими историями о том, как собаки из нашего питомника нашли своё предназначение в различных сферах</p>
+                                <div class="life-author-date">
+                                    <p class="life-author">Мишина Яна</p>
+                                    <p class="life-date">Март 16, 2024</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="life-right">
+                        <div class="life-mini-item">
+                            <img src="images/life2.jpg" alt="Вельш-корги для 1 новости кинологии 2024 года, тенденции и новинки">
+                            <div class="life-mini-text">
+                                <h3>Тенденции и новинки в мире кинологии 2024 года</h3>
+                                <p>Мишина Яна — Март 24, 2024</p>
+                            </div>
+                        </div>
+                        <div class="life-mini-item">
+                            <img src="images/life3.jpg" alt="Померанский шпиц для 2 новости кинологии 2024 года, тенденции и новинки">
+                            <div class="life-mini-text">
+                                <h3>Тенденции и новинки в мире кинологии 2024 года</h3>
+                                <p>Мишина Яна — Март 24, 2024</p>
+                            </div>
+                        </div>
+                        <div class="life-mini-item">
+                            <img src="images/life4.jpg" alt="Четыри щенка Сиба-ину для 3 новости кинологии 2024 года, тенденции и новинки">
+                            <div class="life-mini-text">
+                                <h3>Тенденции и новинки в мире кинологии 2024 года</h3>
+                                <p>Мишина Яна — Март 24, 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="life-button-wrapper">БОЛЬШЕ НОВОСТЕЙ</button>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container contact-container">
+                <h2 class="section-title contact-title">МЫ ВСЕГДА РАДЫ ПОМОЧЬ</h2>
+                <p class="contact-subtitle">Если у вас есть вопросы или вы хотите получить дополнительную информацию, свяжитесь с нами через форму ниже</p>
+                <div class="contact-form">
+                    <div class="form">
+                        <div class="name-email">
+                            <div class="name">
+                                <h3>Имя</h3>
+                                <p>Введите ваше имя</p>
+                            </div>
+                            <div class="email">
+                                <h3>Email</h3>
+                                <p>Как с вами связаться?</p>
+                            </div>
+                        </div>
+                        <div class="message">
+                            <h3>Сообщение</h3>
+                            <p>Ваш вопрос или комментарий</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-image">
+                        <img src="images/contact-dog.jpg" alt="Изображение двух собак и кошки для раздела контактов питомника Черный Чиж">
+                    </div>
+                </div>
+                <div class="contact-button">
+                    <button class="send">ОТПРАВИТЬ</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="container footer-wrapper">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <img src="images/logo-white.svg" alt="Белый логотип питомника Черный Чиж">
+                </div>
+                <div class="footer-contacts">
+                    <h3>КОНТАКТЫ</h3>
+                    <div class="footer-email">
+                        <img src="images/email.png" alt="Иконка электронной почты">
+                        <p >Info@sharpei.club</p>
+                    </div>
+                    <div class="footer-phone">
+                        <img src="images/phone.png" alt="Иконка телефона">
+                        <p>+7 (926) 232-43-07</p>
+                    </div>
+                    <div class="footer-socials">
+                        <img src="images/instagram.png" alt="Иконка Instagram">
+                        <img src="images/telegram.png" alt="Иконка Telegram">
+                        <img src="images/whatsapp.png" alt="Иконка WhatsApp">
+                        <img src="images/viber.png" alt="Иконка Viber"> 
+                    </div>
+                    <div class="footer-legal">
+                        <p>Договор оферты</p>
+                        <p>Политика конфиденциальности</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-right">
+                <div class="footer-column">
+                    <h4>О НАС</h4>
+                    <div class="footer-we">
+                        <p>Питомник<p>
+                        <p>Наша команда<p>
+                        <p>Выставки</p>
+                        <p>Новости</p>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>ШАРПЕЙ</h4>
+                    <div>
+                        <p>Щенки<p>
+                        <p>Кобели<p>
+                        <p>Суки</p>
+                        <p>О породе</p>
+                        <p>Наша память</p>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>СИБА-ИНУ</h4>
+                    <div>
+                        <p>Щенки<p>
+                        <p>Кобели<p>
+                        <p>Суки</p>
+                        <p>О породе</p>
+                        <p>Наша память</p>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>КОРГИ</h4>
+                    <div>
+                        <p>Щенки<p>
+                        <p>Кобели<p>
+                        <p>Суки</p>
+                        <p>О породе</p>
+                        <p>Наша память</p>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>ПОМЕРАНСКИЙ ШПИЦ</h4>
+                    <div>
+                        <p>Щенки<p>
+                        <p>Кобели<p>
+                        <p>Суки</p>
+                        <p>О породе</p>
+                        <p>Наша память</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
